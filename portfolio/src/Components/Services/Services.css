@@ -1,0 +1,48 @@
+.container-services{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container-services .card{
+   width: 31%;
+   padding: 30px 20px;
+   background-color: var(--color-bg-variant);
+   border-radius: 1rem;
+   transition: var(--transition);
+   border: 1px solid transparent;
+}
+.container-services .card:hover{
+    background: transparent;
+    border-color: var(--primary);
+
+}
+.container-services .icon{
+    font-size: 50px;
+    background: var();
+    margin-bottom: 20px;
+    color: var(--primary);
+}
+.container-services h3{
+    margin-bottom: 20px;
+}
+.container-services p{
+    font-size: 14px;
+}
+
+/*Resposive Design*/
+    @media(max-width:1024px){
+        
+        .container-services .card{
+            width: 48%;
+            margin-bottom: 40px;
+        }
+        }
+        
+    @media(max-width:600){
+         .container-services .card{
+            width: 100%;
+         }
+        }
+        
+        
